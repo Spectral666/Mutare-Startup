@@ -1,0 +1,60 @@
+.editoriales{
+    width: 100%;
+    padding: 0px 100px;
+    .contenedor{
+        width: 100%;
+        max-width: 1700px;
+        margin-bottom: 80px;
+        h2{
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 50px;
+            text-align: center; 
+        }
+        .tarjetas{
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around ;
+            .caja{
+                position: relative;
+                width: 320px;
+                height: 320px;
+                border-radius: 10px;
+                background: rgba(181, 96, 250, .2);
+                margin-bottom: 40px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                transition: .2s ease-in-out;
+                &:hover{
+                    background: rgba(46,219,166,.5);
+                    .contenido{
+                        p{
+                            color: #fff;
+                        }
+                    }
+                }
+                .imgcaja{
+                    
+                    img{
+                        width: 220px;
+                        border-radius: 10px;
+                    }
+                }
+                .contenido{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    p{
+                        font-size: 28px;
+                        color: #000;
+                        transition: .3s ;
+                    }
+                }
+            }
+        }
+    }
+}

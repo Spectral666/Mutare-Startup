@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {color: rgb(88, 88, 88);}
+:-moz-placeholder {color: #fff;} 
+::-moz-placeholder {color: #fff;} 

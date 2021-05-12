@@ -1,0 +1,20 @@
+footer{
+    background: rgb(235,179,255);
+    background: linear-gradient(180deg, rgba(235,179,255,1) 0%, rgba(186,46,236,1) 2%, rgba(177,39,236,1) 14%, rgba(104,158,213,1) 58%, rgba(59,220,171,1) 100%);
+    padding: 60px;
+    color: #fff;
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        .links{
+            p{
+                display: inline-block;
+                margin: 0 20px;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
