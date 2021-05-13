@@ -16,17 +16,20 @@
        /*  -webkit-box-shadow: 0px 0px 15px 9px rgb(181,96,250)linear-gradient(180deg, rgba(181,96,250,1) 45%, rgba(255,251,232,1) 100%); 
         box-shadow: 0px 0px 15px 9px rgb(181,96,250)linear-gradient(180deg, rgba(181,96,250,1) 45%, rgba(255,251,232,1) 100%); */
         .logo{
-            display: flex;
-            align-items: center;
-            h1{
-                color: #fff;
-                font-size: 34px;
-                font-weight: 600;
-                letter-spacing: 3px;
-            }
-            img{
-                width: 3.5vw;
-                margin-right: 10px;
+            a{
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                h1{
+                    color: #fff;
+                    font-size: 34px;
+                    font-weight: 600;
+                    letter-spacing: 3px;
+                }
+                img{
+                    width: 3.5vw;
+                    margin-right: 10px;
+                }
             }
         }
         .buttons.navbar{
@@ -42,7 +45,7 @@
                 transition: .2s;
                 &:hover{
                     background: #fff;
-                    color: aquamarine;
+                    color: rgb(181,96,250);
                 }
             }
         }
@@ -85,6 +88,9 @@
                 &:focus{
                     outline: none;
                 }
+            }
+            .btn-search::placeholder{
+                color: #fff;
             }
             .icon{
                 position: absolute;
