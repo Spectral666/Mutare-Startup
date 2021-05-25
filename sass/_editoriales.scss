@@ -16,12 +16,8 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around ;
-            a{
-                text-decoration: none;
-            }
             .caja{
                 position: relative;
-                padding: 50px;
                 width: 320px;
                 height: 320px;
                 border-radius: 10px;
@@ -42,8 +38,9 @@
                     }
                 }
                 .imgcaja{
+                    
                     img{
-                        width: 100%;
+                        width: 220px;
                         border-radius: 10px;
                     }
                 }
@@ -55,27 +52,6 @@
                         font-size: 28px;
                         color: #000;
                         transition: .3s ;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 800px){
-    .editoriales{
-        padding: 0px 50px;
-        .contenedor{
-            .tarjetas{
-                .caja{
-                    width: 250px;
-                    height: 250px;
-                    padding: 30px;
-                    .imgcaja{
-                        padding: 10px;
-                        img{
-                            width: 100%;
-                        }
                     }
                 }
             }
