@@ -21,6 +21,7 @@
             }
             .caja{
                 position: relative;
+                padding: 50px;
                 width: 320px;
                 height: 320px;
                 border-radius: 10px;
@@ -41,9 +42,8 @@
                     }
                 }
                 .imgcaja{
-                    
                     img{
-                        width: 220px;
+                        width: 100%;
                         border-radius: 10px;
                     }
                 }
@@ -55,6 +55,27 @@
                         font-size: 28px;
                         color: #000;
                         transition: .3s ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .editoriales{
+        padding: 0px 50px;
+        .contenedor{
+            .tarjetas{
+                .caja{
+                    width: 250px;
+                    height: 250px;
+                    padding: 30px;
+                    .imgcaja{
+                        padding: 10px;
+                        img{
+                            width: 100%;
+                        }
                     }
                 }
             }

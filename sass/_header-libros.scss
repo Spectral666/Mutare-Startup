@@ -41,6 +41,7 @@
             display: flex;
             justify-content: left;
             align-items: center;
+            flex-wrap: wrap;
             a{
                 color: rgb(28, 241, 195);
                 font-weight: 600;
@@ -56,5 +57,11 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header-libros{
+        padding: 50px 50px;
     }
 }

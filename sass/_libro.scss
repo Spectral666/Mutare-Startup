@@ -15,7 +15,7 @@
             .inf{
                 padding: 0px 50px;
                 h2{
-                    font-size: 34px;
+                    font-size: 2.6vw;
                     font-weight: 500;
                     letter-spacing: .8px;
                     margin-bottom: 10px;
@@ -26,7 +26,7 @@
                 }
                 .text{
                     color: #333;
-                    font-size: 18px;
+                    font-size: 1vw;
                     margin-bottom: 30px;
                 }
                 form{
@@ -48,9 +48,9 @@
                     }
                 }
                 button{
-                    font-size: 20px;
-                    padding: 4px 20px;
-                    border: 2px solid rgb(181,96,250);
+                    font-size: 1.1vw;
+                    padding: .2vw 1.2vw;
+                    border: .15vw solid rgb(181,96,250);
                     color: rgb(181,96,250);
                     border-radius: 20px;
                     background: none;
@@ -86,7 +86,7 @@
             margin-bottom: 55px;
         }
         .contenedor{
-            padding: 0px 200px;
+            padding: 0px 0px;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -96,9 +96,9 @@
                 color: #333;
             }
             .book{
-                width: 14vw;
                 padding: 20px;
                 background: rgba(0,0,0,.05);
+                margin-bottom: 10px;
                 border-radius: 10px;
                 transition: .2s ease-in-out;
                 &:hover{
@@ -124,6 +124,43 @@
                         font-weight: 400;
                         margin-bottom: 5px;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .libro{
+        padding: 50px 50px;
+        .product{
+            .description{
+                flex-direction: column;
+                .image{
+                    margin-bottom: 10px;
+                    img{
+                        width: 35vw;
+                    }
+                }
+                .inf{
+                    padding: 0px;
+                    h2{
+                        font-size: 3.5vw;
+                        text-align: center;
+                    }
+                    .text{
+                        font-size: 2vw;
+                    }
+                    button{
+                        font-size: 2vw;
+                    }
+                }
+            }
+        }
+        .recomendation{
+            .contenedor{
+                flex-direction: column;
+                .book{
                 }
             }
         }
