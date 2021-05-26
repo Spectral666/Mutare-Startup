@@ -29,6 +29,40 @@
                 font-size: 18px;
                 margin-bottom: 6px;
             }
+            button{
+                margin-top: 10px;
+                font-size: 18px;
+                background: transparent;
+                padding: 6px;
+                color: rgb(46,219,166);
+                border-radius: 5px;
+                border: 2px solid rgb(46,219,166);
+                transition: .1s ease-in-out;
+                &:hover{
+                    background: rgb(46,219,166);
+                    color: #fff;
+                    cursor: pointer;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .perfil{
+        padding: 80px 50px;
+        h2{
+            text-align: center;
+        }
+        .contenedor{
+            .img-user{
+                img{
+                    width: 35vw;
+                }
+            }
         }
     }
 }

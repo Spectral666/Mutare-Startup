@@ -10,11 +10,11 @@
     }
     .contenedor{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
         .formulario{
             form{
-                width: 1000px;
+                width: 100%;
                 margin-bottom: 40px;
                 h4{
                     margin-bottom: 20px;
@@ -37,6 +37,11 @@
                             outline: none;
                             
                         }
+                    }
+                    input[type='file'] + label{
+                        overflow: hidden;
+                        background: chartreuse;
+
                     }
                 }
                 input[type='submit']{
@@ -68,6 +73,33 @@
                 align-items: center;
                 img{
                     width: 12vw;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .dar-libro{
+        padding: 80px 50px;
+        .contenedor{
+            .formulario{
+                form{
+                    p{
+                        input{
+                            font-size: 4vw;
+                        }
+                    }
+                }
+            }
+        }
+        .contenedor{
+            .colaboradores{
+                .contenedor{
+                    flex-direction: row;
+                    img{
+                        width: 22vw;
+                    }
                 }
             }
         }
