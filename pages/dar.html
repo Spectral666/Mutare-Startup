@@ -40,7 +40,7 @@
             <div class="formulario">
                 <form action="#">
                     <div class="element">
-                        <label for="nombre">Nombre: </label>
+                        <label for="nombre">Nombre del libro: </label>
                         <input type="text" name="nombre" id="nombre">
                     </div>
                     <div class="element">
@@ -50,10 +50,6 @@
                     <div class="element">
                         <label for="paginas">Páginas: </label>
                         <input type="number" name="paginas" id="paginas">
-                    </div>
-                    <div class="element">
-                        <label for="imagen">Imágen: </label>
-                        <input type="file" accept=".jpg, .jpeg, .png, .gif" class="">
                     </div>
                     <div class="element">
                         <label for="editorial">Editorial: </label>
@@ -93,6 +89,11 @@
                             <option value="finanzas">Finanzas</option>
                             <option value="romantico">Romántico</option>
                         </select>
+                    </div>
+                    <div class="element">
+                        <label class="imagen" for="imagen">Selecciona una imágen </label>
+                        <input type="file" id="imagen" accept=".jpg, .jpeg, .png, .gif">
+                        <span id="file-selected"></span>
                     </div>
                     <div class="element">
                         <input type="submit">

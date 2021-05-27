@@ -22,3 +22,7 @@ $('#btn-recibir').click(function(){
     $('html').animate({scrollTop: $('#contenedor').offset().top - 160}, 1000);
 
 });
+
+$('#imagen').bind('change', function() { 
+    var fileName = ''; fileName = $(this).val(); $('#file-selected').html(fileName); 
+})
