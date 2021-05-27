@@ -39,15 +39,64 @@
 
             <div class="formulario">
                 <form action="#">
-                    <h4>Completa los siguientes campos:</h4>
-                    <p>Nombre: <input type="text"></p>
-                    <p>Páginas: <input type="number"></p>
-                    <p>Imágen: <input type="file" accept=".jpg, .jpeg, .png, .gif" class=""></p>
-                    <p>Editorial: <input type="text"></p>
-                    <p>Estado del libro: <input type="text"></p>
-                    <p>Tipo de tapa: <input type="text"></p>
-                    <p>Idioma: <input type="text"></p>
-                    <input type="submit">
+                    <div class="element">
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="element">
+                        <label for="autor">Autor: </label>
+                        <input type="text" name="autor" id="autor">
+                    </div>
+                    <div class="element">
+                        <label for="paginas">Páginas: </label>
+                        <input type="number" name="paginas" id="paginas">
+                    </div>
+                    <div class="element">
+                        <label for="imagen">Imágen: </label>
+                        <input type="file" accept=".jpg, .jpeg, .png, .gif" class="">
+                    </div>
+                    <div class="element">
+                        <label for="editorial">Editorial: </label>
+                        <input type="text" name="editorial" id="editorial">
+                    </div>
+                    <div class="element">
+                        <label for="condition">Estado del libro: </label>
+                        <select name="condition" id="condition">
+                            <option value="nuevo">Nuevo</option>
+                            <option value="muybueno">Muy bueno</option>
+                            <option value="bueni">Bueno</option>
+                            <option value="medio">Medio</option>
+                            <option value="malo">Malo</option>
+                            <option value="muymalo">Muy malo</option>
+                        </select>
+                    </div>
+                    <div class="element">
+                        <label for="cover">Encuadernación: </label>
+                        <select name="cover" id="cover">
+                            <option value="dura">Tapa dura</option>
+                            <option value="blanda">Tapa blanda</option>
+                        </select>
+                    </div>
+                    <div class="element">
+                        <label for="idioma">Idioma: </label>
+                        <input type="text" name="idioma" id="idioma">
+                    </div>
+                    <div class="element">
+                        <label for="category">Categoria: </label>
+                        <select name="category" id="category">
+                            <option value="terror">Terror</option>
+                            <option value="escolar">Escolar</option>
+                            <option value="autoayuda">Autoayuda</option>
+                            <option value="cienciaficcion">Ciencia ficción</option>
+                            <option value="comic">Cómic</option>
+                            <option value="fantasia">Fantasía</option>
+                            <option value="finanzas">Finanzas</option>
+                            <option value="romantico">Romántico</option>
+                        </select>
+                    </div>
+                    <div class="element">
+                        <input type="submit">
+                    </div>
                 </form>
             </div>
 
