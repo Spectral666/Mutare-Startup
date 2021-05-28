@@ -10,3 +10,11 @@
 ::-webkit-input-placeholder {color: rgb(88, 88, 88);}
 :-moz-placeholder {color: #fff;} 
 ::-moz-placeholder {color: #fff;} 
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#06eca7);
+    border-radius: 7px;
+} 
